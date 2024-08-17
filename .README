@@ -1,0 +1,7 @@
+# Create Database
+- Tạo Database UTF-8
+- Import file /core/sql/database.sql
+
+# Config Env
+- Copy file /core/ConfigEnvTemp.php vào thư mục /core/env/ConfigEnv.php
+- Config các thông tin của environment trong file /core/env/ConfigEnv.php

@@ -1,0 +1,19 @@
+RewriteEngine On
+
+# Nếu URL không phải là một thư mục
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Nếu URL không phải là một file
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Nếu URL không phải là một liên kết tượng trưng
+RewriteCond %{REQUEST_FILENAME} !-l
+
+# Hotel details
+RewriteRule ^hotel/([a-zA-Z0-9\-_]+).html$ /views/detail/index.php?slug=$1 [L,QSA]
+
+# List hotel in city
+RewriteRule ^([0-9]+)-([a-zA-Z0-9\-_]+).html$ /views/list/index.php?city_id=$1&city=$2 [L,QSA]
+
+
+ErrorDocument 404 /views/404/404.php

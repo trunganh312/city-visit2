@@ -1,0 +1,61 @@
+09/06/2023 08:56:09 tqa.local/
+IP:127.0.0.1
+File: D:\xampp\htdocs\Outsource\TQA\core\config\config_core.php
+
+No database selected
+
+SELECT * FROM configuration WHERE con_id = 1
+
+---------------------------------------------------------------------------
+09/06/2023 09:44:36 tqa.local/
+IP:127.0.0.1
+File: D:\xampp\htdocs\Outsource\TQA\cms\layout\inc_header.php
+
+Table 'out_tqa.permission' doesn't exist
+
+SELECT per_file, per_module_id
+                                        FROM permission
+                                        INNER JOIN permission_group_admin ON (per_id = pega_permission_id)
+                                        INNER JOIN admin_group_admin ON (pega_group_id = aga_group_id)
+                                        WHERE per_active = 1 AND per_file <> '' AND aga_admin_id = 1
+
+---------------------------------------------------------------------------
+09/06/2023 09:44:38 tqa.local/
+IP:127.0.0.1
+File: D:\xampp\htdocs\Outsource\TQA\cms\layout\inc_header.php
+
+Table 'out_tqa.permission' doesn't exist
+
+SELECT per_file, per_module_id
+                                        FROM permission
+                                        INNER JOIN permission_group_admin ON (per_id = pega_permission_id)
+                                        INNER JOIN admin_group_admin ON (pega_group_id = aga_group_id)
+                                        WHERE per_active = 1 AND per_file <> '' AND aga_admin_id = 1
+
+---------------------------------------------------------------------------
+09/06/2023 09:46:26 tqa.local/
+IP:127.0.0.1
+File: D:\xampp\htdocs\Outsource\TQA\cms\layout\inc_header.php
+
+Table 'out_tqa.permission' doesn't exist
+
+SELECT per_file, per_module_id
+                                        FROM permission
+                                        INNER JOIN permission_group_admin ON (per_id = pega_permission_id)
+                                        INNER JOIN admin_group_admin ON (pega_group_id = aga_group_id)
+                                        WHERE per_active = 1 AND per_file <> '' AND aga_admin_id = 1
+
+---------------------------------------------------------------------------
+09/06/2023 09:46:27 tqa.local/
+IP:127.0.0.1
+File: D:\xampp\htdocs\Outsource\TQA\cms\layout\inc_header.php
+
+Table 'out_tqa.permission' doesn't exist
+
+SELECT per_file, per_module_id
+                                        FROM permission
+                                        INNER JOIN permission_group_admin ON (per_id = pega_permission_id)
+                                        INNER JOIN admin_group_admin ON (pega_group_id = aga_group_id)
+                                        WHERE per_active = 1 AND per_file <> '' AND aga_admin_id = 1
+
+---------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+<?
+
+class City extends Model
+{
+}

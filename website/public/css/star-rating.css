@@ -1,0 +1,62 @@
+.rate-base-layer {
+  color: #aaa;
+}
+
+.rate-hover-layer {
+  color: orange;
+}
+
+.cleanliness,
+.amenities,
+.money,
+.service,
+.support,
+.location {
+  font-size: 35px;
+}
+
+.cleanliness .rate-hover-layer {
+  color: red;
+}
+
+.cleanliness .rate-select-layer {
+  color: red;
+}
+
+.amenities .rate-hover-layer {
+  color: red;
+}
+
+.amenities .rate-select-layer {
+  color: red;
+}
+
+.money .rate-hover-layer {
+  color: red;
+}
+
+.money .rate-select-layer {
+  color: red;
+}
+.service .rate-hover-layer {
+  color: red;
+}
+
+.service .rate-select-layer {
+  color: red;
+}
+.support .rate-hover-layer {
+  color: red;
+}
+
+.support .rate-select-layer {
+  color: red;
+}
+
+.location .rate-hover-layer {
+  color: red;
+}
+
+.location .rate-select-layer {
+  color: red;
+}

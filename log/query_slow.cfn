@@ -1,0 +1,16 @@
+02/08/2024 08:55:29 localhost/module/city/list.php
+IP:::1
+File: 
+
+SELECT COUNT(cit_id) AS total FROM city  WHERE 1
+
+Query time : 0.1082279682
+---------------------------------------------------------------------------
+03/08/2024 03:14:12 localhost/module/hotel/list.php
+IP:::1
+File: C:\xampp\htdocs\cityvisit\core\config\config_core.php
+
+SELECT * FROM configuration WHERE con_id = 1
+
+Query time : 0.1748261452
+---------------------------------------------------------------------------

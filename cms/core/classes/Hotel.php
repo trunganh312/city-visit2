@@ -1,0 +1,2 @@
+<?
+class Hotel extends Model {}
